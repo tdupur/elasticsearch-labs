@@ -10,9 +10,9 @@ services:
     ports:
       - 8000:8000
     environment:
-      - CLOUD_ID={{cloud_id}}
+      - CLOUD_ID=<cloud_id>
       - ELASTICSEARCH_USERNAME=elastic
-      - ELASTICSEARCH_PASSWORD={{cloud_pass}}
+      - ELASTICSEARCH_PASSWORD=<elastic pass>
 
   client:
     build:
